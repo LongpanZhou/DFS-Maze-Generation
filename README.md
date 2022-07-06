@@ -1,4 +1,4 @@
-# Rubix Cube
+# Maze Generator
 ## Requirements
 Lib used: pygame
 ```
@@ -12,7 +12,7 @@ This Maze generation is based on DFS.
 - When every direction is visited, back track to previous position using stack.pop().
 - When every possible vertex is explored, it will go back to its starting position.
 
-## Kown Bugs
+## known Bugs
 Program crashes on click when running (Anywhere on screen)
 - Cause: While loop conflicting with pygame update while loop
 - Fix: Multi threading (Too lazy)
